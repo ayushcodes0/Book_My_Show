@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(243, 241, 241, 0.592);
+    font-family: "Roboto", sans-serif;
+}
+header{
+    height: 75px;
+    width: 100%;
+    background-color: white;
+}
+.navbar{
+    height: 75px;
+    width: 90vw;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.first-section {
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.first-section img{
+    background-color: white;
+}
+.first-section input{
+    background-color: white;
+    padding: 5px;
+}
+.first-section input{
+    width: 500px;
+    height: 30px;
+    border: 1px solid rgba(243, 241, 241, 0.592);
+    border-radius: 3px;
+}
+@media screen and (max-width:980px) {
+    .first-section input{
+        width: 250px;
+    }
+}
+@media screen and (max-width:700px) {
+    .first-section input{
+        width: 100px;
+    }
+}
+@media screen and (max-width:525px) {
+    .first-section input{
+        width: 40px;
+    }
+}
+.sec-section{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+}
+.sec-section button{
+    background-color: #f84464;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 12px 5px 12px;
+
+}
+.sec-section select{
+    border: none;
+    padding: 10px;
+    background-color: white;
+}
+.sec-section span {
+    font-size: 20px;
+    color: rgb(150, 147, 147);
+    background-color: white;
+}
+.sec-section span i{
+    background-color: white;
+}
+.sec-nav {
+    width: 90%;
+    background-color: rgba(243, 241, 241, 0.592);
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+@media screen and (max-width:980px) {
+    .sec-nav{
+        flex-wrap: wrap;
+    }
+}
+.first-section{
+    gap: 20px;
+}
+.sec-nav a{
+    color: rgb(90, 88, 88);
+    font-size: 15px;
+    text-decoration: none;
+    background-color: rgba(243, 241, 241, 0.592);
+}
+.below-nav{
+    background-color: rgba(243, 241, 241, 0.592);
+}
+.sec-navbar{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.banner1{
+    text-align: center;
+    padding: 30px;
+}
+.banner1 img{
+    border-radius: 10px;
+    width: 90vw;
+}
+.heading2{
+    width: 90%;
+    margin: auto;
+    padding: 15px;
+}
+.heading2 h2{
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.768);
+}
+.initial-cards{
+    width: 90vw;
+    background: transparent;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width:700px) {
+    .initial-cards{
+        justify-content: space-around;
+    }
+}
+.initial-cards .card img{
+    height: 45vh;
+    border-radius: 10px;
+}
+.initial-cards .card h3{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color:rgba(0, 0, 0, 0.768);
+    font-weight: 500;
+}
+.initial-cards .card p{
+    color: rgb(117, 116, 116);
+}
+@media screen and (max-width:980px) {
+    .initial-cards{
+        flex-wrap: wrap;
+    }
+}
+.banner1 .banner2{
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.sec-card .card img{
+    height: 28vh;
+    border-radius: 10px;
+}
+.sec-card{
+    width: 90vw;
+    background: transparent;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width:980px) {
+    .sec-card{
+        flex-wrap: wrap;
+    }
+}
+.premiere{
+    background-color: rgb(36, 45, 76);
+    margin-top: 60px;
+}
+.premiere-section{
+    width: 90%;
+    margin: auto;
+    background: transparent;
+}
+.premiere-section button{
+    border: none;
+    border-radius: 100%;
+    height: 60px;
+    width: 60px;
+    background-color: #f84464;
+}
+.premiere-section button i{
+    font-size: 40px;
+    padding-left: 8px;
+    border-radius: 100%;
+    background-color:#f84464;
+    color: white;
+}
+.premiere-section .play{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    background: transparent;
+    padding-top: 40px;
+    padding-bottom: 50px;
+
+}
+.premiere-section .play .premiere-text{
+    background: transparent;
+}
+.premiere-section .play div h3{
+    padding: 2px;
+    color: white;
+    font-size: 25px;
+    letter-spacing: 3px;
+    background: transparent;
+}
+.premiere-section .play div p{
+    padding: 2px;
+    color: rgba(255, 255, 255, 0.633);
+    background: transparent;
+    font-size: 14px;
+}
+.premiere-text h3{
+    font-size: 25px;
+}
+.premiere-text .pt{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.752);
+}
+.premiere-text h3,.premiere-text p{
+    background-color: rgb(36, 45, 76);
+    color: white;
+}
+.premiere-card .card img{
+    height: 40vh;
+    border-radius: 10px;
+}
+.premiere-card{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(36, 45, 76);
+    padding-bottom: 30px;
+}
+@media screen and (max-width:980px) {
+    .premiere-card{
+        flex-wrap: wrap;
+    }
+}
+.premiere-card .card{
+    background: transparent;
+    padding-top: 15px;
+    
+}
+.premiere-card .card h3,.premiere-card .card p{
+    background: transparent;
+}
+.premiere-card .card h3{
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-weight: 500;
+}
+.premiere-card .card p{
+    color: rgb(198, 195, 195);
+}
+.music-studio{
+    padding-top: 60px;
+}
+.end-part{
+    margin-top: 70px;
+    width: 100vw;
+    height: 80vh;
+    background-color: rgb(84, 84, 88);
+}
+
+/* #lastpart{
+    width: 90vw;
+    height: 80vh;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+    background: transparent;
+}
+#lastpart a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background:transparent;
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background: transparent;
+} */
+.initial-cards .card img:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: 0.5s;
+}
+.sec-card .card img:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: 0.5s;
+}
+.premiere-card .card img:hover{
+    box-shadow: 0 0 8px 3px rgba(255, 255, 255, 0.322);
+    transition: 0.5s;
+}
+.sec-section button:hover{
+    background-color: rgb(204, 55, 82);
+    cursor: pointer;
+}
+.bannerhover img:hover{
+    box-shadow: rgba(0, 0, 0, 0.485) 0px 3px 8px;
+    transition: 0.5s;
+}
+
+
+
+
